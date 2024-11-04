@@ -1,0 +1,16 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Svalboard Layout Hosting'
+theme = 'hugo-simple'
+
+[permalinks]
+tags = "/layouts/:slug"
+
+[[menu.main]]
+name = "Home"
+pageRef = "/"
+weight = 10
+[[menu.main]]
+name = "Layouts"
+pageRef = "/layouts"
+weight = 20
